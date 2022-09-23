@@ -1,0 +1,26 @@
+Uperf Version 1.0.7
+Usage:   uperf [-m profile] [-hvV] [-ngtTfkpaeE:X:i:P:RS:]
+         uperf [-s] [-hvV]
+
+        -m <profile>     Run uperf with this profile
+        -s               Slave
+        -S <protocol>    Protocol type for the control Socket [def: tcp]
+        -n               No statistics
+        -T               Print Thread statistics
+        -t               Print Transaction averages
+        -f               Print Flowop averages
+        -g               Print Group statistics
+        -k               Collect kstat statistics
+        -p               Collect CPU utilization for flowops [-f assumed]
+        -e               Collect default CPU counters for flowops [-f assumed]
+        -E <ev1,ev2>     Collect CPU counters for flowops [-f assumed]
+        -a               Collect all statistics
+        -X <file>        Collect response times
+        -i <interval>    Collect throughput every <interval>
+        -P <port>        Set the master port (defaults to 20000)
+        -R               Emit raw (not transformed), time-stamped (ms) statistics
+        -v               Verbose
+        -V               Version
+        -h               Print usage
+
+More information at http://www.uperf.org
