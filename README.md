@@ -3,7 +3,7 @@
 Please visit [uperf.org](http://www.uperf.org) for the latest information
 
 # Pre-requisites
-As of writing this documented, installed the following on Windows (Server 2019) did the trick.
+As of writing this documente, installed the following on Windows (Server 2019) allowed us to further progress with compiling
 1. Cygwin
 2. autoconf2.7
 3. automake1.16
